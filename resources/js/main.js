@@ -46,6 +46,13 @@ function contact() {
     layers[5].classList.add("active");
 }
 
+function project() {
+    collapse();
+    layers[6].classList.add("active");
+    revealText1.classList.add("reveal");
+}
+
+
 // The hamburger animation:
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");

@@ -102,25 +102,27 @@ submit.addEventListener("click", () => {
 });
 
 function submitEmail() {
-    let param = {
-        method: "POST",
-        from_name: form_name.value,
-        from_email: email.value,
-        to_name: "Shuvro!",
-        subject: subject.value,
-        message: message.value,
-    };
+    const form = document.querySelector("form");
+    const formData = new FormData(form);
 
-    
-    emailjs.send("service_name", "template_name", param).then(
-        function (response) {
-            alert("SUCCESS! " + response.status + " " + response.text);
-        },
-        function (error) {
-            alert("FAILED... " + error);
+    fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+    })
+    .then((response) => response.json())
+    .then((result) => {
+        if (result.success) {
+            alert("Form submitted successfully!");
+        } else {
+            alert("Form submission failed: " + result.message);
         }
-    );
+    })
+    .catch((error) => {
+        console.error("Error:", error);
+        alert("An error occurred while submitting the form.");
+    });
 }
+
 
 document.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
