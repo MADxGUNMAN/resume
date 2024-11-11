@@ -146,12 +146,12 @@ $(document).ready(() => {
                     .toLowerCase();
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
-                    category: "Web Development",
-                    project_brief: `MADxGUNMAN IS WORKING ON IT.`,
+                    category: "Web Application",
+                    project_brief: `This project is made by ansari souaib.`,
 
 
-                    project_date: "2019",
-                    project_client: "XYZ Corporation",
+                    project_date: "2024",
+                    project_client: "Made For Fun",
                     project_link: `www.${website}.com`,
 
                     image: [
@@ -176,9 +176,9 @@ $(document).ready(() => {
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
                     category: "Logo Designing",
-                    project_brief: `MADxGUNMAN IS WORKING ON IT.`,
+                    project_brief: `This project is made by ansari souaib.`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
@@ -206,9 +206,9 @@ $(document).ready(() => {
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
                     category: "Graphics Designing",
-                    project_brief: `MADxGUNMAN IS WORKING ON IT.`,
+                    project_brief: `This project is made by ansari souaib.`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
@@ -236,9 +236,9 @@ $(document).ready(() => {
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
                     category: "Icon Designing",
-                    project_brief: `MADxGUNMAN IS WORKING ON IT.`,
+                    project_brief: `This project is made by ansari souaib.`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
@@ -266,9 +266,9 @@ $(document).ready(() => {
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
                     category: "UI/UX Designing",
-                    project_brief: `MADxGUNMAN IS WORKING ON IT.`,
+                    project_brief: `This project is made by ansari souaib.`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
