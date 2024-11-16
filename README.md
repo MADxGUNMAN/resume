@@ -1,2 +1,2 @@
 # resume
-Created by Ansati sohaib.
+Created by Ansari sohaib.
